@@ -71,3 +71,26 @@ a
 
 .text-muted-light
   color: #999 !important
+
+.accordion
+  .card
+    border: none
+    .card-header
+      background-color: transparent
+      border: none
+      padding: 0
+      h5
+        margin: 10px 0
+        a
+          text-align: left
+          display: block
+          &:focus
+            box-shadow: none
+          i
+            transition: transform .5s ease
+            &.rotate
+              transform: rotate(180deg)
+    .card-body
+      background-color: #f8f8f8
+      margin-top: 10px
+      border-radius: 5px

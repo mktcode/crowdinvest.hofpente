@@ -4,8 +4,8 @@
     <Header />
 
     <div class="container">
-      <h1 class="text-center mt-5">Crowdfunding Hof Pente</h1>
-      <h3 class="text-center text-muted-light">Helfen Sie dabei den CSA Hof Pente langfristig als lebenspraktischen Begegnungs- und Lernort zu sichern und eine nachhaltige, biologische Landwirtschaft zu ermöglichen!</h3>
+      <h1 class="text-center mt-5">Hof Pente Crowdfunding</h1>
+      <h3 class="text-center text-muted-light">Wir landwirtschaften biologisch-dynamisch, gemeinschaftsgetragen & solidarisch!</h3>
       <div class="row mt-5">
         <div class="col-6 d-flex flex-column justify-content-center">
           <p><b>CSA</b> steht für <b>C</b>ommunity <b>S</b>upported <b>A</b>griculture, zu deutsch: Gemeinschaftsgetragene Landbaukultur oder auch Solidarische Landwirtschaft. </p>
@@ -46,6 +46,56 @@
 
     <hr class="my-5">
 
+    <div class="container">
+      <h1 class="text-center mt-5">Unterstützen Sie uns!</h1>
+      <h3 class="text-center text-muted-light">
+        Helfen Sie dabei den CSA Hof Pente langfristig als lebenspraktischen Begegnungs- und Lernort zu sichern und eine nachhaltige, biologische Landwirtschaft zu ermöglichen!
+      </h3>
+
+      <h3 class="mt-5">Gemeinschaftsstiftung Hof Pente</h3>
+      <p>Um der Spekulation mit landwirtschaftlichem Land Einhalt zu gebieten wurde die Gemeinschaftsstiftung Hof Pente ins Leben gerufen.</p>
+      <p>Die Stiftung stellt die Infrastruktur für die Erfüllung der gemeinnützigen Ziele bereit.</p>
+      <p><b>Machen Sie mit und kaufen sie ein Stück Land für die Zukunft</b></p>
+
+      <div class="accordion" id="accordion" ref="accordion">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse1" @click="toggleCollapseIndicator">
+                <span>Collapsible Group Item #1</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse1" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse2" @click="toggleCollapseIndicator">
+                <span>Collapsible Group Item #2</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse2" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
     <Contact />
     <Partners />
     <Footer />
@@ -70,6 +120,11 @@
     computed: {
       date () {
         return new Date().getFullYear()
+      }
+    },
+    methods: {
+      toggleCollapseIndicator (e) {
+        e.target.children[1].classList.toggle('rotate')
       }
     }
   }
