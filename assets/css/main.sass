@@ -1,3 +1,5 @@
+$brand-color: #8cc14c
+
 @font-face
   font-family: 'Inkpen2'
   src: url('/fonts/inkpen2-script-webfont.eot')
@@ -10,9 +12,15 @@ html, body
 
 body
   min-height: 100%
+  padding-top: 56px
 
 body *
-  font-family: 'Roboto', sans-serif
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: #444
+
+p
+  font-size: 15px
+  line-height: 21px
 
 #__nuxt,
 #__layout
@@ -22,3 +30,42 @@ body *
   font-family: Inkpen2, sans-serif
   font-size: 1.5rem
   line-height: 1.5rem
+
+.responsive-video
+  position: relative
+  padding-bottom: 50%
+  padding-top: 25px
+  height: 0
+
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+.bg-brand
+  background-color: $brand-color
+
+.video-logo
+  position: absolute
+  top: 15px
+  left: 35px
+  z-index: 1
+
+.btn-brand
+  background-color: $brand-color
+  color: #fff
+  &:hover
+    background-color: darken($brand-color, 5)
+    color: #fff
+
+.btn
+  border-top-left-radius: 15px
+  border-bottom-right-radius: 15px
+
+.columns-2
+  column-count: 2
+
+.text-muted-light
+  color: #999 !important

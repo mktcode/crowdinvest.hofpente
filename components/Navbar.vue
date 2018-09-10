@@ -1,20 +1,22 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Wer wir sind</a>
-        </li>
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item">
           <a class="nav-link" href="#">Die Situation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Warum Crowdfunding</a>
+          <a class="nav-link" href="#">Warum Crowdfunding?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Was kann ich tun?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
         </li>
       </ul>
     </div>
