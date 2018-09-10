@@ -10,10 +10,7 @@
           <a class="nav-link" href="#">Die Situation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Warum Crowdfunding?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Was kann ich tun?</a>
+          <a class="nav-link" href="#">Unterstützen</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Kontakt</a>
