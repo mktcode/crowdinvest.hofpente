@@ -48,6 +48,7 @@
     <hr class="my-5">
 
     <Contact />
+    <Partners />
     <Footer />
   </div>
 </template>
@@ -56,6 +57,7 @@
   import Navbar from '~/components/Navbar'
   import Header from '~/components/Header'
   import Contact from '~/components/Contact'
+  import Partners from '~/components/Partners'
   import Footer from '~/components/Footer'
 
   export default {
@@ -63,6 +65,7 @@
       Navbar,
       Header,
       Contact,
+      Partners,
       Footer
     },
     computed: {
