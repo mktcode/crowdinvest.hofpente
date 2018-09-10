@@ -63,21 +63,18 @@
 
     </div>
 
-    <footer>
-      <small class="text-muted-light">
-        &copy; {{ date }} CSA Hof Pente GbR
-      </small>
-      <a href="https://hofpente.de/impressum" target="_blank"></a>
-    </footer>
+    <Footer />
   </div>
 </template>
 
 <script>
   import Navbar from '~/components/Navbar'
+  import Footer from '~/components/Footer'
 
   export default {
     components: {
-      Navbar
+      Navbar,
+      Footer
     },
     computed: {
       date () {
