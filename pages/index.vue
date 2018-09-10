@@ -1,7 +1,6 @@
 <template>
   <div class="h-100">
     <Navbar />
-
     <Header />
 
     <div class="container">
@@ -24,7 +23,7 @@
     <hr class="my-5">
 
     <div class="container">
-      <h2 class="text-center mb-4">Die Situation in der Landwirtschaft allgemein</h2>
+      <h1 class="text-center mb-4">Die Situation in der Landwirtschaft allgemein</h1>
       <div class="columns-2">
         <p>Um unsere Landwirtschaft nachhaltig zu gestalten darf Ackerland nicht zum Spekulationsgut werden. Es braucht Menschen, die Landwirtschaft mit Enthusiasmus, Hingabe und Fachwissen betreiben. Es braucht Menschen, die ehrlich und sorgsam mit Tieren, Pflanzen und Boden umgeben. Aber es braucht auch Sie, es brauch Menschen die dies Ermöglichen, Menschen, die den Mut haben sich zu beteiligen.</p>
         <p>Seit Ausbruch der Weltfinanzkrise 2008 fließt immer mehr Spekulationsgeld von außerlandwirtschaftlichen Investoren in Äcker, Grünland und Wald als sicheren Hafen für ihre Geldanlage. Als Folge haben sich die landwirtschaftlichen Bodenpreise in Deutschland alleine in den letzten 9 Jahren mehr als verdoppelt.</p>
