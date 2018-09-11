@@ -41,7 +41,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {src: '~/plugins/vue-youtube-embed.js', ssr: false}
+    {src: '~/plugins/vue-youtube-embed.js', ssr: false},
+    {src: '~/plugins/vue-scroll-to.js', ssr: false}
   ],
 
   /*

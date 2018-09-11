@@ -1,5 +1,5 @@
 <template>
-  <div class="h-100">
+  <div class="h-100" data-spy="scroll" data-target="#navbar">
     <Navbar />
     <Header />
 
@@ -22,7 +22,7 @@
 
     <hr class="my-5">
 
-    <div class="container">
+    <div class="container" id="situation">
       <h1 class="text-center mb-4">Die allgemeine Situation in der Landwirtschaft</h1>
       <div class="columns-2">
         <p>Um unsere Landwirtschaft nachhaltig zu gestalten darf Ackerland nicht zum Spekulationsgut werden. Es braucht Menschen, die Landwirtschaft mit Enthusiasmus, Hingabe und Fachwissen betreiben. Es braucht Menschen, die ehrlich und sorgsam mit Tieren, Pflanzen und Boden umgeben. Aber es braucht auch Sie, es brauch Menschen die dies Ermöglichen, Menschen, die den Mut haben sich zu beteiligen.</p>
@@ -46,7 +46,7 @@
 
     <hr class="my-5">
 
-    <div class="container">
+    <div class="container" id="support">
       <h1 class="text-center mt-5">Unterstützen Sie uns!</h1>
       <h3 class="text-center text-muted-light">
         Helfen Sie dabei den CSA Hof Pente langfristig als lebenspraktischen Begegnungs- und Lernort zu sichern und eine nachhaltige, biologische Landwirtschaft zu ermöglichen!
@@ -320,6 +320,13 @@
   import Footer from '~/components/Footer'
 
   export default {
+    head: {
+      bodyAttrs: {
+        'data-spy': 'scroll',
+        'data-target': '#navbar',
+        'data-offset': '250'
+      }
+    },
     components: {
       Navbar,
       Header,

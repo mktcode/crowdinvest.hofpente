@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "nuxt": "^1.0.0",
+    "vue-scrollto": "^2.11.0",
     "vue-youtube-embed": "^2.2.1"
   },
   "devDependencies": {
