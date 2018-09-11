@@ -23,7 +23,7 @@
     <hr class="my-5">
 
     <div class="container">
-      <h1 class="text-center mb-4">Die Situation in der Landwirtschaft allgemein</h1>
+      <h1 class="text-center mb-4">Die allgemeine Situation in der Landwirtschaft</h1>
       <div class="columns-2">
         <p>Um unsere Landwirtschaft nachhaltig zu gestalten darf Ackerland nicht zum Spekulationsgut werden. Es braucht Menschen, die Landwirtschaft mit Enthusiasmus, Hingabe und Fachwissen betreiben. Es braucht Menschen, die ehrlich und sorgsam mit Tieren, Pflanzen und Boden umgeben. Aber es braucht auch Sie, es brauch Menschen die dies Ermöglichen, Menschen, die den Mut haben sich zu beteiligen.</p>
         <p>Seit Ausbruch der Weltfinanzkrise 2008 fließt immer mehr Spekulationsgeld von außerlandwirtschaftlichen Investoren in Äcker, Grünland und Wald als sicheren Hafen für ihre Geldanlage. Als Folge haben sich die landwirtschaftlichen Bodenpreise in Deutschland alleine in den letzten 9 Jahren mehr als verdoppelt.</p>
@@ -53,24 +53,84 @@
       </h3>
 
       <h3 class="mt-5">Gemeinschaftsstiftung Hof Pente</h3>
-      <p>Um der Spekulation mit landwirtschaftlichem Land Einhalt zu gebieten wurde die Gemeinschaftsstiftung Hof Pente ins Leben gerufen.</p>
-      <p>Die Stiftung stellt die Infrastruktur für die Erfüllung der gemeinnützigen Ziele bereit.</p>
+      <p>Um der Spekulation mit landwirtschaftlichem Land Einhalt zu gebieten wurde die Gemeinschaftsstiftung Hof Pente ins Leben gerufen. Die Stiftung stellt die Infrastruktur für die Erfüllung der gemeinnützigen Ziele bereit.</p>
       <p><b>Machen Sie mit und kaufen sie ein Stück Land für die Zukunft</b></p>
 
       <div class="accordion" id="accordion" ref="accordion">
         <div class="card">
           <div class="card-header">
             <h5 class="mb-0">
-              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse1" @click="toggleCollapseIndicator">
-                <span>Collapsible Group Item #1</span>
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse1">
+                <span>Stiften - Geld dauerhaft anlegen und einen guten Zweck fördern</span>
                 <i class="fas fa-chevron-down mt-1 d-block"></i>
               </a>
             </h5>
           </div>
 
-          <div id="collapse1" class="collapse" data-parent="#accordion">
+          <div id="collapse1" class="collapse">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <p>Wollen Sie Ihr Vermögen <b>dauerhaft einem guten Zweck</b> widmen, kann eine <b>Stiftung</b> richtig sein. Denn gestiftetes Vermögen bleibt erhalten, <b>wir wollen dafür Land kaufen und dauerhaft für gemeinnützige Zwecke</b> (Landschaftspflege und Naturschutz, Bildung und Erziehung einschl. der Berufsausbildung sowie das bürgerschaftliche Engagement im Verfolgen dieser Zwecke) <b>zur Verfügung stellen</b>.</p>
+              <p class="text-center"><b>Die Ersten 40.000 € die gestiftet werden, werden durch eine Förderung der NBank verdreifacht!</b></p>
+              <hr>
+              <p>Füllen Sie folgendes Formular aus um unverbindlich Ihr Interesse zu bekunden.</p>
+              <form>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form1-firstname">Vorname</label>
+                      <input type="text" class="form-control" id="form1-firstname">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form1-lastname">Nachname</label>
+                      <input type="text" class="form-control" id="form1-lastname">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="form1-street">Straße/Nr.</label>
+                      <input type="text" class="form-control" id="form1-street">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label for="form1-zip">PLZ</label>
+                      <input type="text" class="form-control" id="form1-zip">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="form-group">
+                      <label for="form1-city">Stadt</label>
+                      <input type="text" class="form-control" id="form1-city">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form1-country">Land</label>
+                      <input type="text" class="form-control" id="form1-country">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form1-amount">Stiftungsbetrag</label>
+                      <input type="text" class="form-control" id="form1-amount">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <button type="button" class="btn btn-brand">
+                    <i class="fas fa-paper-plane"></i>
+                    Absenden
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -78,20 +138,170 @@
         <div class="card">
           <div class="card-header">
             <h5 class="mb-0">
-              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse2" @click="toggleCollapseIndicator">
-                <span>Collapsible Group Item #2</span>
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse2">
+                <span>Stiften auf Zeit - Mit Geld auf bestimmte Zeit einen guten Zweck fördern</span>
                 <i class="fas fa-chevron-down mt-1 d-block"></i>
               </a>
             </h5>
           </div>
 
-          <div id="collapse2" class="collapse" data-parent="#accordion">
+          <div id="collapse2" class="collapse">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <p>Es ist auch möglich, Geld für eine bestimmte Zeit zu stiften.</p>
+              <hr>
+              <p>Laden Sie einfach das Formular herunter und senden Sie es uns ausgefüllt, per Post zu.</p>
+              <a href="#" class="btn btn-brand">
+                <i class="fas fa-download"></i>
+                Formular Herunterladen
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse3">
+                <span>Spende für den Bodenaufbau und erhalte CO<sup>2</sup> Zertifikate</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse3" class="collapse">
+            <div class="card-body">
+              <p>„Bio ist nicht zu teuer, sondern konventionell zu billig“ – davon sind viele Anhänger der Bio-Branche überzeugt. Seit Kurzem sprechen auch Ernst&Young, Standard & Poor’s selbst BlackRock offen darüber, dass ihre Methoden zur Bewertung von Unternehmen nicht mehr aktuell sind. Firmen sollen zukünftig bei ihrer Bewertung u.a. Klimarisiken mitberücksichtigen, sonst werden sie bei ihrer Kreditwürdigkeit heruntergestuft. Für eine bessere Bewertung wurde die Gesamtkostenrechnung entwickelt. Für die Landwirtschaft wurde u.a. die organische Substanz im Boden als Schlüsselindikator identifiziert, der die zukünftige Konkurrenzfähigkeit landwirtschaftlicher Systeme definiert.</p>
+              <p>Diese Gesamtkostenanalyse wurde basierend auf den Richtlinien des Natural Capital Protocols2 durchgeführt unter Berücksichtigung der von Ernst&Young und Soil & More entwickelten Anforderungen für den Lebensmittel- und Agrarsektor. Folgende Parameter wurden hierbei für die einzelnen Betriebe untersucht: CO2e-Emissionsn, CO2-Bindung, Wasserverbrauch und -verschmutzung, Erosion, Bodenaufbau, Biodiversität, Energie-verbräuche, Transport der Waren zum Verbraucher, Bildungsarbeit und Gesundheit. Für die Bewertung der ökologischen Aspekte wurden ausschließlich von Industrie und Wissenschaft anerkannte Modelle verwendet. Wegen noch unzureichender Ansätze wurden die sozioökonomischen Themen für die drei Betriebe zusammenfassend beschrieben.</p>
+              <p>Die in den letzten Jahren eingeführte schonende Bodenbearbeitung, Untersaat, Zwischenfrüchte und bodendeckende Pflanzen sowie verbesserte Kompostwirtschaft führt zu signifikanter CO2-Bindung und Bodenaufbau.</p>
+              <p>Auf den Gesamtbetrieb bezogen generiert Hof Pente einen jährliches Nettonutzen von 30.259 €. Ein Durchschnittlicher Vergleichsbetreib hingegen 100.000 € minus.</p>
+              <hr>
+              <h5>Stiften für Bodenaufbau und CO<sup>2</sup> Bindung - Mit Umweltzertifikat</h5>
+              <p>Mit Ihrer Stiftung ermöglichen sie uns den konkreten Mehrwert für den Boden zu leisten. Mit einem Umweltzeritfikat Bescheinigen wir Stiftern im Rahmen unseres jährlichen Nettonutzens (siehe oben) Ihr Engagement. Das Geld wird wieder in den Bodenaufbau und in die CO2 Bindung investiert.</p>
+              <form>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form2-firstname">Vorname</label>
+                      <input type="text" class="form-control" id="form2-firstname">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form2-lastname">Nachname</label>
+                      <input type="text" class="form-control" id="form2-lastname">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="form2-street">Straße/Nr.</label>
+                      <input type="text" class="form-control" id="form2-street">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label for="form2-zip">PLZ</label>
+                      <input type="text" class="form-control" id="form2-zip">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="form-group">
+                      <label for="form2-city">Stadt</label>
+                      <input type="text" class="form-control" id="form2-city">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form2-country">Land</label>
+                      <input type="text" class="form-control" id="form2-country">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form2-amount">Stiftungsbetrag</label>
+                      <input type="text" class="form-control" id="form2-amount">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <button type="button" class="btn btn-brand">
+                    <i class="fas fa-paper-plane"></i>
+                    Absenden
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse4">
+                <span>Vererben</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse4" class="collapse">
+            <div class="card-body">
+              <h5>Ein Testament ist wichtig!</h5>
+              <p>Nur durch ein Testament können sie die gesetzliche Erbfolge außer Kraft setzen. Wenn Sie also einen mit ihrem Erbe einen guten Zweck unterstütze wollen, so benötigen Sie ein Testament. Ansonsten tritt die gesetzliche Erbfolge in Kraft.</p>
+              <p>Das Erbrecht im Todesfall wird durch das Bürgerliche Gesetzbuch geregelt. Es werden darin allein Ehe- und eingetragene Lebenspartner, Kinder, Adoptivkinder und Enkel berücksichtigt. Dabei ist die Rangfolge vorgegeben.</p>
+              <p>
+                1. Ordnung: Erst Kinder/Adoptivkinder, dann Kindeskinder<br>
+                2. Ordnung: Erst Eltern, dann Geschwister und deren Abkömmlinge<br>
+                3. Ordnung: Erst Großeltern, dann deren Abkömmlinge<br>
+                4. Ordnung: Erst Urgroßeltern, dann deren Abkömmlinge
+              </p>
+
+              <h5>Alles nach Ihrem Willen: Mit einem Testament</h5>
+              <p>Immer dann, wenn Sie Ihr Vermögen anders aufteilen möchten, als es die gesetzliche Erbfolge vorgibt, müssen Sie dies in einem Testament oder Erbvertrag regeln. Wollen Sie nichteheliche Lebenspartner, enge Freunde oder gemeinnützige Organisationen bedenken? Erst ein Testament setzt die gesetzliche Erbfolge außer Kraft und ermöglicht Ihnen individuelle Gestaltungsfreiheit.</p>
+              <h5>Was Sie über ein Testament für den guten Zweck wissen sollten</h5>
+              <p>Gemeinnützig vererben? Nur mit einem Testament oder Erbvertrag.</p>
+              <p>Wer im Todesfall erbt, das regelt in Deutschland das Bürgerliche Gesetzbuch. Die gesetzliche Erbfolge berücksichtigt allein Blutsverwandte, Adoptivkinder, Ehe- und eingetragene Lebenspartner – oder den Staat.</p>
+              <p>Nur ein Testament oder Erbvertrag setzt diese Regelung außer Kraft und ermöglicht individuelle Gestaltungsfreiheit. Wer eine gemeinnützige Organisation bedenken möchte, muss dies mit einem Testament regeln oder einen Erbvertrag aufsetzen lassen.</p>
+
+              <h5>Vermachen oder Vererben? Was ähnlich klingt, ist nicht das selbe.</h5>
+              <p>Wenn sie Gutes tun wollen, ist es wichtig den Unterschied zu kennen: Der Erbe übernimmt nicht nur Vermögen, sondern auch Schulden und Verbindlichkeiten.</p>
+              <p>Wenn Sie der Gemeinschaftsstiftung Hof Pente einen Geldbetrag, eine Immobilie oder sonstiges für einen guten Zweck überlassen wollen, dann ist ein Vermächtnis der beste Weg.</p>
+              <p><b>Beispiel für eine Erbeinsetzung:</b></p>
+              <p>Als Erben bestimme ich zu gleichen Teilen meine Tocher XXX, wohnhaft in XXX, und die Gemeinschaftsstiftung Hof Pente.</p>
+              <p><b>Beispiel für ein Vermächtnis:</b></p>
+              <p>Die Gemeinschaftsstiftung Hof Pente, Osnabrücker Str. 73, 49565 Bramsche, soll aus meinem Erbe ein Vermächtnis in Höhe von X Euro bekommen.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse5">
+                <span>Schenkung - Möglich jeder Zeit oder von Todes wegen</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse5" class="collapse">
+            <div class="card-body">
+              <p>Sie können auch einfach Teile Ihres Vermögens –beispielsweise Geld, Haus oder Wertgegenstände – bereits zu ihrenLebzeiten verschenken. So können Sie noch zu ihren Lebzeiten miterleben, wie sie damit Gutes bewirken. Sie können allerdings auch durch ein Schenkungsversprechen, die Schenkung erst mit Ihrem Tod wirksam werden lassen. Dazu bedarf es allerdings einer notariellen Beurkundung.</p>
+              <p>Ohne Notar ist eine „Verfügung zugunsten Dritter für den Todesfall“ möglich. Was sperrig klingt, ist einfach: Ein Sparbuch, Bankkonto oder Wertpapierdepot geht am Tag Ihres Todes auf eine Person oder Organisation über. Auf ähnliche Weise können Sie gemeinnützige Organisationen auch als Bezugsberechtigte Ihrer Lebens¬ oder Rentenversicherung eintragen. Die Auszahlung dient ohne steuerlichen Abzug der guten Sache.</p>
+              <p>Übrigens: Schenkungen an gemeinnützige Organisationen sind steuerbefreit.</p>
             </div>
           </div>
         </div>
       </div>
+
+      <h3 class="mt-5">ARG e.V.</h3>
+      <p>Fördere Bildung für nachhaltige Entwicklung auf Hof Pente.</p>
+
     </div>
 
     <hr class="my-5">
@@ -120,11 +330,6 @@
     computed: {
       date () {
         return new Date().getFullYear()
-      }
-    },
-    methods: {
-      toggleCollapseIndicator (e) {
-        e.target.children[1].classList.toggle('rotate')
       }
     }
   }

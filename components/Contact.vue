@@ -95,8 +95,4 @@
           color: #3b5998
   .contact-form
     background-color: #f8f8f8
-    label
-      font-weight: bold
-      font-size: .9rem
-      margin-bottom: 0
 </style>
