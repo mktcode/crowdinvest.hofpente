@@ -7,11 +7,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Crowdfunding CSA Hof Pente',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: 'Helfen Sie dabei den CSA Hof Pente langfristig als lebenspraktischen Begegnungs- und Lernort zu sichern und eine nachhaltige, biologische Landwirtschaft zu ermöglichen!' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
