@@ -7,6 +7,11 @@
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
+          <a class="nav-link" href="#top" v-scroll-to="'#top'">
+            <i class="fas fa-home"></i>
+          </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#situation" v-scroll-to="'#situation'">Die Situation</a>
         </li>
         <li class="nav-item">
