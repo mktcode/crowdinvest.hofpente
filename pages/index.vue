@@ -56,7 +56,7 @@
       <p>Um der Spekulation mit landwirtschaftlichem Land Einhalt zu gebieten wurde die Gemeinschaftsstiftung Hof Pente ins Leben gerufen. Die Stiftung stellt die Infrastruktur für die Erfüllung der gemeinnützigen Ziele bereit.</p>
       <p><b>Machen Sie mit und kaufen sie ein Stück Land für die Zukunft</b></p>
 
-      <div class="accordion" id="accordion" ref="accordion">
+      <div class="accordion">
         <div class="card">
           <div class="card-header">
             <h5 class="mb-0">
@@ -301,6 +301,108 @@
 
       <h3 class="mt-5">ARG e.V.</h3>
       <p>Fördere Bildung für nachhaltige Entwicklung auf Hof Pente.</p>
+
+      <div class="accordion">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse6">
+                <span>GLS Bank - Geld direct für die Schule</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse6" class="collapse">
+            <div class="card-body">
+              <h5>Bürgschaftskredit - Bis 3000 €</h5>
+              <p>Unterzeichne eine Bürgschaftserklährung für bis zu 3.000 € und wir erhalten von der GLS Bank dafür einen Schulgründungskredit: (Link Info PDF zum Download)</p>
+
+              <h5>Schenkgemeinschaft</h5>
+              <p>Die GLS Bank mit Hauptsitz in Bochum bietet das Modell "Leihen und Schenken" zur Finanzierung kultureller, sozialer oder ökologischer Projekte, die sie für förderungswürdig erachtet. Kredite an Leihgemeinschaften werden kostendeckend vergeben, d.h. es werden nur die anfallenden Personal- und Sachkosten in Rechnung gestellt, aber keine Zinsen erhoben.</p>
+              <p>Nach eingehender Prüfung unseres Konzepts stellt die Bank uns eine Summe X zur Verfügung. Die Voraussetzung ist, dass wir genügend Kleinkreditgeber finden, die sich für max. 5 Jahre verpflichten, die Kreditsumme in monatlichen Raten an die GLS Bank zurück zu zahlen.</p>
+              <p>Wie funktioniert das? Menschen, die die <b>Freie Hofschule Pente</b> unterstützen wollen, erklären sich bereit, für fünf Jahre jeden Monat 9,00 € bis max. 50,00 € zu spenden. Die Unterstützerinnen und Unterstützer schließen sich zu einer Leihgemeinschaft zusammen, eine echte Solidargemeinschaft. Jeder Unterstützer beantragt einen Kleinkredit bei der GLS Bank, der der <b>Gemeinschaftsstiftung Hof Pente</b> sofort zugutekommt. Weitere Unterlagen oder eine Bonitätsprüfung sind nicht erforderlich. Die einzelnen Leihgemeinschafts-mitglieder tilgen über ein mtl. Lastschriftverfahren ihren jeweiligen Kredit über die vereinbarte Laufzeit, max. fünf Jahre.  Jedes Mitglied zahlt seinen eigenen Kredit zurück und haftet zusätzlich gesamtschuldnerisch für alle anderen Kredite der Leihgemeinschaft, bis diese vollständig getilgt sind. Die Höhe dieser zusätzlichen Haftung bleibt auf den eigenen Kreditbetrag beschränkt.</p>
+              <p>Wenn Sie einer Leih- und Schenkgemeinschaft beitreten und dadurch die <b>Freie Hofschule Pente</b> in der Anlaufphase unterstützen möchten, dann schicken Sie uns doch bitte untenstehende Erklärung zu. Die <b>Gemeinschaftsstiftung Hof Pente</b> wird die Verwaltung der Leih- und Schenkgemeinschaften übernehmen und Sie über alle weiteren Schritte informieren.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse7">
+                <span>Spende für die Hofschule - Und die Software AG Stiftung verdoppelt deine Spende!</span>
+                <i class="fas fa-chevron-down mt-1 d-block"></i>
+              </a>
+            </h5>
+          </div>
+
+          <div id="collapse7" class="collapse">
+            <div class="card-body">
+              <p>Spenden unter 2.000 € werden von der Software AG Stiftung verdoppelt (bis zu einer Höhe von 20.000 €).</p>
+              <hr>
+              <form>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form3-firstname">Vorname</label>
+                      <input type="text" class="form-control" id="form3-firstname">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form3-lastname">Nachname</label>
+                      <input type="text" class="form-control" id="form3-lastname">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="form3-street">Straße/Nr.</label>
+                      <input type="text" class="form-control" id="form3-street">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label for="form3-zip">PLZ</label>
+                      <input type="text" class="form-control" id="form3-zip">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="form-group">
+                      <label for="form3-city">Stadt</label>
+                      <input type="text" class="form-control" id="form3-city">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form3-country">Land</label>
+                      <input type="text" class="form-control" id="form3-country">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="form3-amount">Spendenbetrag</label>
+                      <input type="text" class="form-control" id="form3-amount">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <button type="button" class="btn btn-brand">
+                    <i class="fas fa-paper-plane"></i>
+                    Absenden
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
