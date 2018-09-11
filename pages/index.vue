@@ -52,6 +52,20 @@
         Helfen Sie dabei den CSA Hof Pente langfristig als lebenspraktischen Begegnungs- und Lernort zu sichern und eine nachhaltige, biologische Landwirtschaft zu ermöglichen!
       </h3>
 
+      <div class="mt-5">
+        <h3 class="text-center mb-0">Bodenaufbau</h3>
+        <h4 class="text-center text-muted-light">25.000 € von 100.000 €</h4>
+        <div class="progress" style="height: 35px;">
+          <div class="progress-bar progress-bar-striped bg-brand" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+
+        <h3 class="text-center mb-0 mt-3">Freie Hofschule</h3>
+        <h4 class="text-center text-muted-light">15.000 € von 100.000 €</h4>
+        <div class="progress" style="height: 35px;">
+          <div class="progress-bar progress-bar-striped bg-brand" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+        </div>
+      </div>
+
       <h3 class="mt-5">Gemeinschaftsstiftung Hof Pente</h3>
       <p>Um der Spekulation mit landwirtschaftlichem Land Einhalt zu gebieten wurde die Gemeinschaftsstiftung Hof Pente ins Leben gerufen. Die Stiftung stellt die Infrastruktur für die Erfüllung der gemeinnützigen Ziele bereit.</p>
       <p><b>Machen Sie mit und kaufen sie ein Stück Land für die Zukunft</b></p>
