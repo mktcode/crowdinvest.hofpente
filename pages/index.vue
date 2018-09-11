@@ -321,7 +321,7 @@
           <div class="card-header">
             <h5 class="mb-0">
               <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse6">
-                <span>GLS Bank - Geld direct für die Schule</span>
+                <span>GLS Bank - Geld direkt für die Schule</span>
                 <i class="fas fa-chevron-down mt-1 d-block"></i>
               </a>
             </h5>
