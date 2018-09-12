@@ -53,17 +53,7 @@
       </h3>
 
       <div class="mt-5">
-        <h3 class="text-center mb-0">Bodenaufbau</h3>
-        <h4 class="text-center text-muted-light">25.000 € von 100.000 €</h4>
-        <div class="progress" style="height: 35px;">
-          <div class="progress-bar progress-bar-striped bg-brand" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
-
-        <h3 class="text-center mb-0 mt-3">Freie Hofschule</h3>
-        <h4 class="text-center text-muted-light">15.000 € von 100.000 €</h4>
-        <div class="progress" style="height: 35px;">
-          <div class="progress-bar progress-bar-striped bg-brand" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
-        </div>
+        <FundingItem v-for="(item, index) in data.funding" :key="index" :item="item" />
       </div>
 
       <h3 class="mt-5">Gemeinschaftsstiftung Hof Pente</h3>
@@ -431,9 +421,12 @@
 <script>
   import Navbar from '~/components/Navbar'
   import Header from '~/components/Header'
+  import FundingItem from '~/components/FundingItem'
   import Contact from '~/components/Contact'
   import Partners from '~/components/Partners'
   import Footer from '~/components/Footer'
+
+  import { mapGetters } from 'vuex'
 
   export default {
     head: {
@@ -446,14 +439,19 @@
     components: {
       Navbar,
       Header,
+      FundingItem,
       Contact,
       Partners,
       Footer
     },
     computed: {
+      ...mapGetters(['data']),
       date () {
         return new Date().getFullYear()
       }
+    },
+    mounted () {
+      this.$store.dispatch('fetchData')
     }
   }
 </script>

@@ -12,3 +12,6 @@ dist
 
 # IDE
 .idea
+
+# Data
+/api/data/

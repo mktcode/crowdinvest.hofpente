@@ -1,8 +1,29 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
+const fs = require('fs');
 const app = express();
 
 app.use(express.json());
+
+app.get('/data', (req, res) => {
+  const data = JSON.parse(fs.readFileSync(__dirname + '/data/data.json', {encoding: 'utf-8'}));
+  res.json(data);
+})
+
+app.post('/data', (req, res) => {
+  const data = req.body.data
+  const key = req.body.key
+
+  if (key === process.env.ADMIN_KEY) {
+    fs.copyFileSync(__dirname + '/data/data.json', __dirname + '/data/data-' + (new Date().getTime()) + '.json');
+    fs.writeFileSync(__dirname + '/data/data.json', JSON.stringify(data, null, 2));
+    res.status(200);
+    res.send('data updated');
+  } else {
+    res.status(403);
+    res.send('forbidden');
+  }
+})
 
 app.post('/mail', (req, res) => {
   const address = process.env.MAIL_ADDRESS;
