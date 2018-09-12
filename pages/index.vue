@@ -4,7 +4,7 @@
     <Header />
 
     <div class="container" id="home">
-      <h1 class="text-center mt-4 mt-sm-5">Hof Pente Crowdfunding</h1>
+      <h1 class="text-center mt-4 mt-sm-5">CSA Hof Pente Crowdfunding</h1>
       <h3 class="text-center text-muted-light">Wir landwirtschaften biologisch-dynamisch, gemeinschaftsgetragen & solidarisch!</h3>
       <div class="row mt-4 mt-sm-5">
         <div class="col-md-6 d-flex flex-column justify-content-center">
