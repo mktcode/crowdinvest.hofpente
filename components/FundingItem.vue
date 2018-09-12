@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-4">
     <h3 class="text-center mb-0">{{ item.title }}</h3>
     <h4 class="text-center text-muted-light">{{ item.subtitle }}</h4>
     <div class="progress" style="height: 35px;">
