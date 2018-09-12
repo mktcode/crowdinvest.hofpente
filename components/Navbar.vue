@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="navbar">
+  <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top" id="navbar">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,4 +37,18 @@
         &.active
           background-color: $brand-color
           color: #fff !important
+
+    .navbar-brand
+      font-family: Inkpen2, sans-serif
+      font-size: 1.5rem
+      line-height: 1.5rem
+
+    .navbar-toggler
+      border: none
+      margin: 9px
+
+    .navbar-nav
+      .nav-link
+        padding-left: 10px
+        padding-right: 10px
 </style>
