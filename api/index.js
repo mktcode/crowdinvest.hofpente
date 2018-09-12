@@ -3,6 +3,8 @@ const nodemailer = require('nodemailer');
 const fs = require('fs');
 const app = express();
 
+require('dotenv').config({path: __dirname + '/../.env'})
+
 app.use(express.json());
 
 app.get('/data', (req, res) => {
