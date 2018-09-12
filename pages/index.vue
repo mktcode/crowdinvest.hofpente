@@ -3,7 +3,7 @@
     <Navbar />
     <Header />
 
-    <div class="container home">
+    <div class="container" id="home">
       <h1 class="text-center mt-4 mt-sm-5">Hof Pente Crowdfunding</h1>
       <h3 class="text-center text-muted-light">Wir landwirtschaften biologisch-dynamisch, gemeinschaftsgetragen & solidarisch!</h3>
       <div class="row mt-4 mt-sm-5">
@@ -33,11 +33,11 @@
 
       <h2 class="text-center mt-5 mb-4">Warum Crowdfunding?</h2>
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <h3 class="text-muted">Landwirtschaftliche Grundlage</h3>
           <p>Derzeit werden 36 ha landwirtschaftlichen Gesamtflächen bewirtschaftet. 2/3 der Fläche sind von 5 unterschiedlichen Verpächtern gepachtet. Damit ist die zukünftige Bewirtschaftung ungewiss. Durch die Crowdinvest Kampagne soll der Hof Pente langfristig als lebenspraktischer Begegnungs- und Lernort gesichert werden.</p>
         </div>
-        <div class="col-6">
+        <div class="col-sm-6">
           <h3 class="text-muted">Freie Hofschule Pente</h3>
           <p>Im August 2018 hat die Freie Hofschule Pente gestartet. Dabei müssen wir als Freie Schule die ersten 3 Jahre komplett ohne Zuschüsse vom Land Niedersachsen auskommen. Daher sind wir auf Unterstützung angewiesen.</p>
         </div>

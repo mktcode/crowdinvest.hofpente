@@ -37,8 +37,14 @@
         display: inline-block
         padding: 10px 15px
         transition: background-color .5s ease, color .5s ease
+        font-size: .7rem
         &:hover
           background-color: $brand-color
           color: #fff
           text-decoration: none
+  @media screen and (max-width: 768px)
+    footer
+      .links
+        a
+          padding: 10px 4px
 </style>

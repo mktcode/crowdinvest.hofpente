@@ -1,14 +1,14 @@
 <template>
   <div id="contact">
     <div class="container">
-      <h2 class="text-center mb-4">Kontakt</h2>
+      <h1 class="text-center mb-4">Kontakt</h1>
       <div class="row contact-data mb-4">
-        <div class="col-6 text-right">
+        <div class="col-sm-6 text-center text-sm-right">
           <b>CSA Hof Pente GbR</b><br>
           Osnabrücker Str. 73<br>
           49565 Bramsche
         </div>
-        <div class="col-6">
+        <div class="col-sm-6 text-center text-sm-left">
           Tel.: 05407 8984517<br>
           Fax.: 05407 8984518<br>
           <a href="mailto:buero@hofpente.de">buero@hofpente.de</a>
@@ -28,8 +28,8 @@
     <div class="contact-form">
       <div class="container">
         <div class="row">
-          <div class="col-8">
-            <form class="my-5">
+          <div class="col-lg-8">
+            <form class="my-4 my-sm-5">
               <div class="row">
                 <div class="col-6">
                   <div class="form-group">
@@ -79,7 +79,7 @@
               </div>
             </form>
           </div>
-          <div class="col-4">
+          <div class="col-lg-4 pb-4 pb-lg-0">
             <iframe
               class="border-0 d-block"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d131096.73374923566!2d7.884366025030807!3d52.37122221495227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e11447a4c789%3A0x2ea9ece22abd4540!2sCSA+Hof+Pente+-+Solidarische+Landwirtschaft+-+Handlungsp%C3%A4dagogische+Provinz!5e0!3m2!1sde!2sde!4v1491624957441"
@@ -159,18 +159,23 @@
 </script>
 
 <style lang="sass">
-  .contact-data
-    font-size: 1.2rem
-  .social-links
-    a
-      color: #ccc
-      transition: color .3s ease
-      &.youtube
-        &:hover
-          color: #f00
-      &.facebook
-        &:hover
-          color: #3b5998
-  .contact-form
-    background-color: #f8f8f8
+  #contact
+    .contact-data
+      font-size: 1.2rem
+    .social-links
+      a
+        color: #ccc
+        transition: color .3s ease
+        &.youtube
+          &:hover
+            color: #f00
+        &.facebook
+          &:hover
+            color: #3b5998
+    .contact-form
+      background-color: #f8f8f8
+
+    @media screen and (max-width: 992px)
+      iframe
+        min-height: 250px
 </style>
