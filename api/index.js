@@ -28,10 +28,11 @@ app.post('/data', (req, res) => {
 })
 
 app.post('/mail', (req, res) => {
-  const address = process.env.MAIL_ADDRESS;
+  const to = process.env.MAIL_TO;
+  const account = process.env.MAIL_ACCOUNT;
   const pass = process.env.MAIL_PASS;
 
-  if (address && pass) {
+  if (to && account && pass) {
     const from = req.body.from;
     const subject = req.body.subject;
     const body = req.body.body;
@@ -42,7 +43,7 @@ app.post('/mail', (req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: address,
+          user: account,
           pass: pass
         }
       });
@@ -59,7 +60,7 @@ app.post('/mail', (req, res) => {
 
       // setup email data
       let mailOptions = {
-        to: address,
+        to,
         from,
         subject,
         text,
@@ -82,7 +83,7 @@ app.post('/mail', (req, res) => {
     }
   } else {
     res.status(400);
-    res.send('No mail account set.');
+    res.send('No mail account or recipient set.');
   }
 });
 
