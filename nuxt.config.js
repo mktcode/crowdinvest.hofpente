@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
 
+  serverMiddleware: [
+    '~/api/index'
+  ],
+
   /*
   ** Headers of the page
   */

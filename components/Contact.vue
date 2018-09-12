@@ -29,36 +29,51 @@
       <div class="container">
         <div class="row">
           <div class="col-8">
-            <form class="mt-5">
+            <form class="my-5">
               <div class="row">
                 <div class="col-6">
                   <div class="form-group">
                     <label for="firstname">Vorname</label>
-                    <input type="text" class="form-control" id="firstname">
+                    <input type="text" class="form-control" id="firstname" v-model="firstname">
                   </div>
                   <div class="form-group">
                     <label for="email">E-Mail</label>
-                    <input type="text" class="form-control" id="email">
+                    <input type="text" class="form-control" id="email" v-model="email">
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="form-group">
                     <label for="lastname">Nachname</label>
-                    <input type="text" class="form-control" id="lastname">
+                    <input type="text" class="form-control" id="lastname" v-model="lastname">
                   </div>
                   <div class="form-group">
                     <label for="phone">Telefon</label>
-                    <input type="text" class="form-control" id="phone">
+                    <input type="text" class="form-control" id="phone" v-model="phone">
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="message">Nachricht</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <textarea class="form-control" id="message" rows="3" v-model="message"></textarea>
+              </div>
+              <div class="alert alert-success" v-if="showSuccessMessage">
+                <button type="button" class="close" aria-label="Close" @click="showSuccessMessage = false">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h5>Vielen Dank!</h5>
+                Ihre Nachricht wurde erfolgreich versendet. Wir werden uns so bald wie möglich mit Ihnen in Verbindung setzen.
+              </div>
+              <div class="alert alert-danger" v-if="showErrorMessage">
+                <button type="button" class="close" aria-label="Close" @click="showErrorMessage = false">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h5>Fehler!</h5>
+                Das hat leider nicht geklappt. Ihre Nachricht konnte nicht verschickt werden. Versuchen Sie es später noch einmal oder senden Sie Ihre E-Mail direkt an stiftung@hofpente.de.
               </div>
               <div class="text-center">
-                <button type="button" class="btn btn-brand">
-                  <i class="fas fa-paper-plane"></i>
+                <button type="button" class="btn btn-brand" @click.prevent="sendMail">
+                  <i class="fas fa-spinner fa-spin" v-if="loading"></i>
+                  <i class="fas fa-paper-plane" v-else></i>
                   Nachricht senden
                 </button>
               </div>
@@ -69,7 +84,7 @@
               class="border-0 d-block"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d131096.73374923566!2d7.884366025030807!3d52.37122221495227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e11447a4c789%3A0x2ea9ece22abd4540!2sCSA+Hof+Pente+-+Solidarische+Landwirtschaft+-+Handlungsp%C3%A4dagogische+Provinz!5e0!3m2!1sde!2sde!4v1491624957441"
               width="100%"
-              height="450"
+              height="100%"
               frameborder="0"
               allowfullscreen
             ></iframe>
@@ -79,6 +94,69 @@
     </div>
   </div>
 </template>
+
+<script>
+  import axios from 'axios'
+
+  export default {
+    data () {
+      return {
+        loading: false,
+        showSuccessMessage: false,
+        showErrorMessage: false,
+        firstname: '',
+        lastname: '',
+        email: '',
+        phone: '',
+        message: ''
+      }
+    },
+    methods: {
+      sendMail () {
+        this.loading = true
+        axios.post('/api/mail', {
+          from: this.email,
+          subject: 'Kontakt',
+          body: [
+            {
+              label: 'Vorname',
+              value: this.firstname
+            },
+            {
+              label: 'Nachname',
+              value: this.lastname
+            },
+            {
+              label: 'Telefon',
+              value: this.phone
+            },
+            {
+              label: 'E-Mail',
+              value: this.email
+            },
+            {
+              label: 'Nachricht',
+              value: this.message
+            }
+          ]
+        }).then(() => {
+          this.loading = false
+          this.showSuccessMessage = true
+
+          // reset form
+          this.firstname = ''
+          this.lastname = ''
+          this.email = ''
+          this.phone = ''
+          this.message = ''
+        }).catch(() => {
+          this.loading = false
+          this.showErrorMessage = true
+        })
+      }
+    }
+  }
+</script>
 
 <style lang="sass">
   .contact-data
