@@ -3,19 +3,19 @@
     <Navbar />
     <Header />
 
-    <div class="container">
-      <h1 class="text-center mt-5">Hof Pente Crowdfunding</h1>
+    <div class="container home">
+      <h1 class="text-center mt-4 mt-sm-5">Hof Pente Crowdfunding</h1>
       <h3 class="text-center text-muted-light">Wir landwirtschaften biologisch-dynamisch, gemeinschaftsgetragen & solidarisch!</h3>
-      <div class="row mt-5">
-        <div class="col-6 d-flex flex-column justify-content-center">
+      <div class="row mt-4 mt-sm-5">
+        <div class="col-md-6 d-flex flex-column justify-content-center">
           <p><b>CSA</b> steht für <b>C</b>ommunity <b>S</b>upported <b>A</b>griculture, zu deutsch: Gemeinschaftsgetragene Landbaukultur oder auch Solidarische Landwirtschaft. </p>
           <p>Der <b>CSA Hof Pente</b> ist ein Stück lebendige Utopie. Die Grundlage bildet der biologisch-dynamische Bauernhof, 10km nördlich von Osnabrück. Wir bewirtschaften 36 Hektar Land, davon 5 ha mit Gemüse verschiedenster Arten und versorgen 13 Rinder, 20 Schafe. 3 Zuchtsauen mit Eber und Nachzucht, 12 Bienenvölker und bauen vielfältiges Getreide auf 10 Hektar an. Fleisch und Obst erzeugen wir ebenfalls.</p>
           <p>Wir versorgen derzeit 200 Familien/Haushalte mit Lebensmitteln vom Hof.</p>
           <p>Den Hof bewirtschaften wir nach biodynamischen Gesichtspunkten. Außerdem gehören zum Hof ein Kindergarten und die Freie Hofschule Pente.</p>
           <a href="https://hofpente.de" target="_blank" class="btn btn-brand">Erfahren Sie mehr auf hofpente.de!</a>
         </div>
-        <div class="col-6">
-          <img src="/schaubild.png" alt="Schaubild" class="img-fluid" />
+        <div class="col-md-6">
+          <img src="/schaubild.png" alt="Schaubild" class="img-fluid mt-4" />
         </div>
       </div>
     </div>
