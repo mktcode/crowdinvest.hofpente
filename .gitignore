@@ -15,3 +15,6 @@ dist
 
 # Data
 /api/data/
+
+# Config
+.env
