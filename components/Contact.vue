@@ -4,14 +4,14 @@
       <h1 class="text-center mb-4">Kontakt</h1>
       <div class="row contact-data mb-4">
         <div class="col-sm-6 text-center text-sm-right">
-          <b>CSA Hof Pente GbR</b><br>
+          <b>Gemeinschaftsstiftung Hof Pente</b><br>
           Osnabrücker Str. 73<br>
           49565 Bramsche
         </div>
         <div class="col-sm-6 text-center text-sm-left">
           Tel.: 05407 8984517<br>
           Fax.: 05407 8984518<br>
-          <a href="mailto:buero@hofpente.de">buero@hofpente.de</a>
+          <a href="mailto:stiftung@hofpente.de">stiftung@hofpente.de</a>
         </div>
       </div>
       <div class="text-center mb-3 social-links">
