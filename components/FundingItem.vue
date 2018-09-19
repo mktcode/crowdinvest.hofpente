@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-4">
+  <div class="pb-4 funding-item">
     <h3 class="text-center mb-0">{{ item.title }}</h3>
     <h4 class="text-center text-muted-light">{{ item.subtitle }}</h4>
     <div class="progress" style="height: 35px;">
@@ -13,3 +13,11 @@
     props: ['item']
   }
 </script>
+
+<style lang="sass">
+  .funding-item
+    &:last-child
+      padding-bottom: 0 !important
+    .progress
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+</style>
