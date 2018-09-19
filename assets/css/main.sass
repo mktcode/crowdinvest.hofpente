@@ -53,9 +53,12 @@ a
 .btn-brand
   background-color: $brand-color
   color: #fff
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, .2)
   &:hover
     background-color: darken($brand-color, 5)
     color: #fff
+  &:focus
+    box-shadow: 0 0 0 0.2rem rgba($brand-color, .25)
 
 .btn
   border-top-left-radius: 15px
@@ -84,8 +87,6 @@ a
           display: block
           span
             white-space: normal
-          &:focus
-            box-shadow: none
           i
             transition: transform .5s ease
             &.rotate
