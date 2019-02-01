@@ -5,7 +5,7 @@
         <img src="/logo.png" alt="Hof Pente" class="video-logo" />
         <iframe
           width="100%"
-          src="https://www.youtube.com/embed/5VZj8U4vP3s?autoplay=0&time=0&enablejsapi=1&origin=http://localhost:3000&widgetid=1&showinfo=0&theme=light&color=white"
+          src="https://www.youtube.com/embed/8P9PmQ-kTis?autoplay=0&time=0&enablejsapi=1&origin=http://localhost:3000&widgetid=1&showinfo=0&theme=light&color=white"
           frameborder="0"
           allowfullscreen
         ></iframe>
