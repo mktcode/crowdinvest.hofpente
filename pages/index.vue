@@ -77,65 +77,11 @@
                 <p>Wollen Sie Ihr Vermögen <b>dauerhaft einem guten Zweck</b> widmen, kann eine <b>Stiftung</b> richtig sein. Denn gestiftetes Vermögen bleibt erhalten, <b>wir wollen dafür Land kaufen und dauerhaft für gemeinnützige Zwecke</b> (Landschaftspflege und Naturschutz, Bildung und Erziehung einschl. der Berufsausbildung sowie das bürgerschaftliche Engagement im Verfolgen dieser Zwecke) <b>zur Verfügung stellen</b>.</p>
                 <p class="text-center"><b>Die Ersten 80.000 € die gestiftet werden, werden durch eine Förderung der NBank verdreifacht!</b></p>
                 <hr>
-                <p>Füllen Sie folgendes Formular aus um <b>unverbindlich</b> Ihr Interesse zu bekunden.</p>
-                <form>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form1-firstname">Vorname</label>
-                        <input type="text" class="form-control" id="form1-firstname">
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form1-lastname">Nachname</label>
-                        <input type="text" class="form-control" id="form1-lastname">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="form-group">
-                        <label for="form1-street">Straße/Nr.</label>
-                        <input type="text" class="form-control" id="form1-street">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-4">
-                      <div class="form-group">
-                        <label for="form1-zip">PLZ</label>
-                        <input type="text" class="form-control" id="form1-zip">
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div class="form-group">
-                        <label for="form1-city">Stadt</label>
-                        <input type="text" class="form-control" id="form1-city">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form1-country">Land</label>
-                        <input type="text" class="form-control" id="form1-country">
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form1-amount">Stiftungsbetrag</label>
-                        <input type="text" class="form-control" id="form1-amount">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-right">
-                    <button type="button" class="btn btn-brand">
-                      <i class="fas fa-paper-plane"></i>
-                      Absenden
-                    </button>
-                  </div>
-                </form>
+                <p>Bitte füllen Sie das Kontaktformular aus oder nehmen Sie direkt Kontakt mit uns auf, um <b>unverbindlich</b> Ihr Interesse zu bekunden.</p>
+                <a href="#contact" class="btn btn-brand" v-scroll-to="'#contact'">
+                  <i class="fas fa-download"></i>
+                  zum Kontaktformular
+                </a>
               </div>
             </div>
           </div>
@@ -155,7 +101,7 @@
                 <p>Es ist auch möglich, Geld für eine bestimmte Zeit zu stiften.</p>
                 <hr>
                 <p>Laden Sie einfach das Formular herunter und senden Sie es uns ausgefüllt, per Post zu.</p>
-                <a href="#" class="btn btn-brand">
+                <a href="/Zustiftung-auf-Zeit.pdf" class="btn btn-brand" download>
                   <i class="fas fa-download"></i>
                   Formular Herunterladen
                 </a>
@@ -167,7 +113,7 @@
             <div class="card-header">
               <h5 class="my-0">
                 <a href="#" class="btn btn-brand d-flex justify-content-between" data-toggle="collapse" data-target="#collapse3">
-                  <span>Spende für Boden-, Wasser- & Klimaschutz und erhalte ein Zertifikat</span>
+                  <span>Spende für Boden-, Wasser- & Klimaschutz</span>
                   <i class="fas fa-chevron-down mt-1 d-block"></i>
                 </a>
               </h5>
@@ -180,66 +126,15 @@
                 <p>Die in den letzten Jahren eingeführte schonende Bodenbearbeitung, Untersaat, Zwischenfrüchte und bodendeckende Pflanzen sowie verbesserte Kompostwirtschaft führt zu signifikanter CO<sup>2</sup>-Bindung und Bodenaufbau. <b>Mehr Hintergrund Informationen:</b>&nbsp;<a href="/Report-Hofpente-TCA.pdf" download>Report Herunterladen</a></p>
                 <p>Auf den Gesamtbetrieb bezogen generiert Hof Pente einen jährlichen Nettonutzen von 30.259 €. Ein durchschnittlicher Vergleichsbetrieb hingegen 100.000 € minus.</p>
                 <hr>
-                <h5>Stiften für Bodenaufbau und CO<sup>2</sup> Bindung - Mit Umweltzertifikat</h5>
+                <h5>Stiften für Bodenaufbau und CO<sup>2</sup> Bindung</h5>
                 <p>Mit Ihrer Stiftung ermöglichen Sie uns den konkreten Mehrwert für Boden, Wasser und Klima zu leisten. Mit einem Umweltzeritfikat bescheinigen wir Stiftern im Rahmen unseres jährlichen Nettonutzens (siehe oben) ihr Engagement. Das Geld wird wieder in den Bodenaufbau und in die CO<sup>2</sup> Bindung investiert. Damit soll zukünftig der positive Effekt noch verstärkt werden.</p>
-                <form>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form2-firstname">Vorname</label>
-                        <input type="text" class="form-control" id="form2-firstname">
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form2-lastname">Nachname</label>
-                        <input type="text" class="form-control" id="form2-lastname">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="form-group">
-                        <label for="form2-street">Straße/Nr.</label>
-                        <input type="text" class="form-control" id="form2-street">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-4">
-                      <div class="form-group">
-                        <label for="form2-zip">PLZ</label>
-                        <input type="text" class="form-control" id="form2-zip">
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div class="form-group">
-                        <label for="form2-city">Stadt</label>
-                        <input type="text" class="form-control" id="form2-city">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form2-country">Land</label>
-                        <input type="text" class="form-control" id="form2-country">
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form2-amount">Stiftungsbetrag</label>
-                        <input type="text" class="form-control" id="form2-amount">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-right">
-                    <button type="button" class="btn btn-brand">
-                      <i class="fas fa-paper-plane"></i>
-                      Absenden
-                    </button>
-                  </div>
-                </form>
+                <hr>
+                <p>Bitte füllen Sie das Kontaktformular aus oder nehmen Sie direkt Kontakt mit uns auf, um <b>unverbindlich</b> Ihr Interesse zu bekunden.</p>
+                <a href="#contact" class="btn btn-brand" v-scroll-to="'#contact'">
+                  <i class="fas fa-download"></i>
+                  zum Kontaktformular
+                </a>
+
               </div>
             </div>
           </div>
@@ -369,65 +264,11 @@
               <div class="card-body">
                 <p>Für den Aufbau der Hofschule brauchen wir Unterstützer. Spenden unter 2.000 € werden von der Software AG Stiftung verdoppelt (bis zu einer Höhe von 20.000 €). Für jede Spende erhalten Sie eine Spendenbescheinigung.</p>
                 <hr>
-                <p>Füllen Sie folgendes Formular aus um <b>unverbindlich</b> Ihr Interesse zu bekunden.</p>
-                <form>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form3-firstname">Vorname</label>
-                        <input type="text" class="form-control" id="form3-firstname">
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form3-lastname">Nachname</label>
-                        <input type="text" class="form-control" id="form3-lastname">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="form-group">
-                        <label for="form3-street">Straße/Nr.</label>
-                        <input type="text" class="form-control" id="form3-street">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-4">
-                      <div class="form-group">
-                        <label for="form3-zip">PLZ</label>
-                        <input type="text" class="form-control" id="form3-zip">
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div class="form-group">
-                        <label for="form3-city">Stadt</label>
-                        <input type="text" class="form-control" id="form3-city">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form3-country">Land</label>
-                        <input type="text" class="form-control" id="form3-country">
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="form-group">
-                        <label for="form3-amount">Spendenbetrag</label>
-                        <input type="text" class="form-control" id="form3-amount">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-right">
-                    <button type="button" class="btn btn-brand">
-                      <i class="fas fa-paper-plane"></i>
-                      Absenden
-                    </button>
-                  </div>
-                </form>
+                <p>Bitte füllen Sie das Kontaktformular aus oder nehmen Sie direkt Kontakt mit uns auf, um <b>unverbindlich</b> Ihr Interesse zu bekunden.</p>
+                <a href="#contact" class="btn btn-brand" v-scroll-to="'#contact'">
+                  <i class="fas fa-download"></i>
+                  zum Kontaktformular
+                </a>
               </div>
             </div>
           </div>
